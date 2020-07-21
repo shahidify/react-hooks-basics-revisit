@@ -1,8 +1,7 @@
 import React from "react";
 import { FaHome, FaPlus, FaMinus } from "react-icons/fa";
-import { IconButton } from "./Components";
+import { IconButton, CTAButton, Minutes } from "./Components";
 import "./styles.css";
-import { CTAButton } from "./Components/CTAButton";
 
 export default function App() {
   return (
@@ -27,6 +26,9 @@ export default function App() {
             <FaMinus /> Subtract
           </CTAButton>
         </div>
+      </div>
+      <div>
+        <Minutes />
       </div>
     </div>
   );
