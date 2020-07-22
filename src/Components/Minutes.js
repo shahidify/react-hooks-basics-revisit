@@ -11,7 +11,7 @@ export function Minutes() {
     if (minutes > 1) {
       setMinutes(minutes - 1);
     } else {
-      setError("Greater than 0 😡 ");
+      setError("Greater than 0 🤷🏻‍♂️ ");
     }
   };
   return (
